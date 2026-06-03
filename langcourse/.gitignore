@@ -1,0 +1,32 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Environment files
+.env
+.env.*
+.env.local
+.env.*.local
+.envrc
+
+# Credentials and keys
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.der
+credentials.json
+service-account.json
+google-credentials.json
+.aws/credentials
+.aws/config
+.netrc
+secret*.json
