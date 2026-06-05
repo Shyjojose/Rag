@@ -62,7 +62,7 @@ def smart_chunker(text: str, use_semantic: bool = True, similarity_threshold: fl
     return text_splitter.split_text(text), "RECURSIVE_FALLBACK"
 
 # Execute the local pipeline
-chunks, strategy = smart_chunker(document_text, use_semantic=True, similarity_threshold=0.60)
+chunks, strategy = smart_chunker(document_text, use_semantic=True, similarity_threshold=0.80)
 
 print(f"\n📊 Strategy used: 【 {strategy} 】")
 for i, chunk in enumerate(chunks):
