@@ -20,4 +20,5 @@ dependencies = [
     "langchain-experimental>=0.3.0",
     "langchain-huggingface>=1.2.2",
     "sentence-transformers>=5.5.1",
+    "chromadb>=1.5.9",
 ]
