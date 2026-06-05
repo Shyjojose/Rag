@@ -1,0 +1,8 @@
+{
+    "strategy_used": "LOCAL_SEMANTIC",
+    "total_chunks": 2,
+    "chunks": [
+        "The Model Context Protocol allows developers to build open connections between AI agents and local servers. It uses standard JSON-RPC over stdio and HTTP transports to safely pipe commands. If the api call is done in the same sentence as the protocol description, it should be chunked together.",
+        "To create a perfectly crispy Neapolitan pizza crust, you must use high-hydration type 00 flour. Bake it in an oven reaching at least 900 degrees Fahrenheit for approximately 90 seconds."
+    ]
+}
