@@ -12,9 +12,10 @@ content type - code legeal markdown each need different treatment
 
 # statergies to use 
 fixed 
-recursive 
-semantic 
+recursive (always used for the most part)
+semantic   ( in case of legal document completely misses the retrival)
 late -> embed first chunk later 
+
 
 # decision framework 
 --- fix size chunking just avoid its easy but never used for production 
